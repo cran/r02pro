@@ -1,0 +1,67 @@
+---
+title: "1.2 - Use R as a Fancy Calculator"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### 1.2 - Use R as a Fancy Calculator
+
+
+1. Write R code to compute the square root of 5 times 5. 
+
+```{r sqrt, exercise=TRUE}
+
+```
+
+```{r sqrt-solution}
+sqrt(5*5)
+```
+
+
+2. Write R code to get help on the function `floor`.
+
+```{r get_help, exercise=TRUE}
+
+```
+
+```{r get_help-solution}
+?floor
+help(floor)
+```
+
+
+3. Write R code to compute the square of $\pi$ and round it to 4 digits after the decimal point. 
+
+```{r pi_2_round, exercise=TRUE}
+
+```
+
+```{r pi_2_round-solution}
+round(pi^2, digits = 4)
+```
+
+4. Write R code to compute the logarithm of 1 billion with base 1000. 
+
+```{r log_base, exercise=TRUE}
+
+```
+
+```{r log_base-solution}
+log(1e9, 1e3)
+```
+
+
+5. Write R code to verify $sin^2(x) + cos^2(x) = 1$, for $x = 724$. 
+
+```{r sin_cos, exercise=TRUE}
+
+```
+
+```{r sin_cos-solution}
+sin(724)^2+cos(724)^2
+```

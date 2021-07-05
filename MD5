@@ -1,0 +1,14 @@
+ff1b9e4350146bc1037140519ac2cd3b *DESCRIPTION
+099e9cf76847c699b3e23ea7495aa365 *NAMESPACE
+8d22f8e63d8fa0d749f6e0cd10d9f85f *R/ahp.R
+35c72443d3672d174324dd4b07cd17e9 *R/r02pro.R
+644df715d155e4420d0e9fdcfa17a3f4 *R/sahp.R
+7e2feac176e6613629d3aa96e57bd864 *data/ahp.RData
+325d8a0b7ead56df4d46985ef628acd1 *data/sahp.RData
+be7ead7a5f563b390baff8e0c270d56b *inst/tutorials/1.1/1.1.Rmd
+e010a32f9bfd361458cbccec6cd18eaf *inst/tutorials/1.1/1.1.html
+31b707e5f4ffc128a80920b642704ace *inst/tutorials/1.2/1.2.Rmd
+52bb7604de7a36e13c39854f51e61a17 *inst/tutorials/1.2/1.2.html
+f2c58b8b848d1aa9deb0590288288e81 *man/ahp.Rd
+71ea0928fd102946273181555be3d32d *man/r02pro.Rd
+8c5449ceb648afae08dc2523991fdcb2 *man/sahp.Rd
