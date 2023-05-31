@@ -1,6 +1,6 @@
 Package: r02pro
 Title: R Programming: Zero to Pro
-Version: 0.1
+Version: 0.2
 Authors@R: c(person(given = "Yang",
            family = "Feng",
            role = c("aut", "cre"),
@@ -14,13 +14,13 @@ License: GPL-2
 URL: https://r02pro.github.io/
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Imports: learnr
 LazyData: true
 NeedsCompilation: no
-Packaged: 2021-07-02 15:34:24 UTC; yangfeng
+Packaged: 2023-05-31 13:57:39 UTC; yangfeng
 Author: Yang Feng [aut, cre],
   Jianan Zhu [aut]
 Maintainer: Yang Feng <yangfengstat@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-07-05 08:40:05 UTC
+Date/Publication: 2023-05-31 14:30:02 UTC

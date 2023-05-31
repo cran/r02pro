@@ -1,0 +1,158 @@
+---
+title: "4. Data Import and Export"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(readr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 4.1 Exporting Data to Delimited Files 
+
+1. If we have a data frame named `my_data` in R, write R code to write the data frame into a .csv file named "my_data_no_name.csv" without column names. 
+
+```{r export-no-name, exercise=TRUE}
+
+```
+
+
+2. If we have a data frame named `my_data` in R which contains `NA` values, write R code to write the data frame into a delimited file called "my_data_na.csv" with `#` as the delimiter and use `999` as the indicator for missing values. 
+
+```{r export-missing, exercise=TRUE}
+
+```
+
+
+## 4.2 Importing Data from Delimited Files
+
+1. If we have a delimited file named "my_data.txt" with `*` as the delimiter and the file is located in the current working directory. Write R code to read the file into an object with name `my_data`.
+
+```{r import-star, exercise=TRUE}
+
+```
+
+2. First, run the code below.
+
+```{r, eval=TRUE}
+d1 <- read_csv("x,y,z
+          1,3,5
+          2,4,6", col_names = FALSE)
+```
+
+Which of the following are the column names of the `d1`?
+
+- `X1`, `X2`, and `X3`
+- `x`, `y`, and `z`
+
+3. First, run the code below.
+```{r, eval=TRUE}
+read_csv("The first line 
+          The second line
+          The third line
+          x,y,z
+          1,3,5", )
+```
+
+Which of the following are the column names of the `d1`?
+
+2. Which of the following is a valid object name in R?
+
+- `2.True`
+- `else`
+- `I_am_not_a_valid_name`
+- `I_am_a_Pretty#_name`
+
+3. Write R code to get the list of all objects in the environment.
+
+```{r ls, exercise=TRUE}
+
+```
+
+## 2.2 Numeric Vector, Character Vector, & Logical Vector
+
+
+1. Write R code to create a numeric vector named `vec_1` with values (7, 24, 8, 26), get its length, and find out its type. 
+
+```{r numvec, exercise=TRUE}
+
+```
+
+
+2. Write R code to create a character vector named `char_1` with values ("I", "am", "learning", "R!"), get its length, find out its type, and concatenate the vector into a single string with space as the separator.
+
+```{r charvec, exercise=TRUE}
+
+```
+
+
+3. For the `char_1` defined in Q2, find the number of characters in each string, and convert each string to upper case. 
+
+```{r charvec2, exercise=TRUE}
+
+```
+
+4. Create a length-2 logical vector representing whether `vec_1` and `char_1` are of character type. 
+
+```{r logi1, exercise=TRUE}
+
+```
+
+5. Let `class1 <- c(7, TRUE)`. Which of the following is the class of `class1`?
+
+- numeric
+- logical
+- character
+
+
+6. Let `class2 <- c(7, TRUE, "char")`. Which of the following is the class of `class2`?
+
+- numeric
+- logical
+- character
+
+
+## 2.3 Create Vectors with Patterns
+
+
+
+1. Write R code to create consecutive integers from -10 to 10.
+
+```{r seq1, exercise=TRUE}
+
+```
+
+
+2. Write R code to create a decreasing sequence from 5 to 1 with increment -0.5.
+
+```{r seq2, exercise=TRUE}
+
+```
+
+
+3. Write R code to create an equally-spaced sequence from 2 to 6 with length 10.
+
+```{r seq3, exercise=TRUE}
+
+```
+
+
+4. Write R code using `rep()` function to create the string
+
+`c("sheep","pig", "cat","sheep","pig", "cat","sheep","pig", "cat")`
+
+
+```{r seq4, exercise=TRUE}
+
+```
+
+5. Write R code using `rep()` function to create the string
+
+`c("sheep","sheep","pig","pig","pig","pig","cat","cat","cat")`
+
+
+```{r seq5, exercise=TRUE}
+
+```

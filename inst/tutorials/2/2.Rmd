@@ -1,0 +1,186 @@
+---
+title: "2. R Objects"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 2.1 Object Assignment
+
+1. Write R code to assign the value 20 to the name `num_1`.
+
+```{r num1, exercise=TRUE}
+
+```
+
+
+
+2. Which of the following is a valid object name in R?
+
+- `2.True`
+- `else`
+- `I_am_not_a_valid_name`
+- `I_am_a_Pretty#_name`
+
+3. Write R code to get the list of all objects in the environment.
+
+```{r ls, exercise=TRUE}
+
+```
+
+## 2.2 Numeric Vector, Character Vector, & Logical Vector
+
+
+1. Write R code to create a numeric vector named `vec_1` with values (7, 24, 8, 26), get its length, and find out its type. 
+
+```{r numvec, exercise=TRUE}
+
+```
+
+
+2. Write R code to create a character vector named `char_1` with values ("I", "am", "learning", "R!"), get its length, find out its type, and concatenate the vector into a single string with space as the separator.
+
+```{r charvec, exercise=TRUE}
+
+```
+
+
+3. For the `char_1` defined in Q2, find the number of characters in each string, and convert each string to upper case. 
+
+```{r charvec2, exercise=TRUE}
+
+```
+
+4. Create a length-2 logical vector representing whether `vec_1` and `char_1` are of character type. 
+
+```{r logi1, exercise=TRUE}
+
+```
+
+5. Let `class1 <- c(7, TRUE)`. Which of the following is the class of `class1`?
+
+- numeric
+- logical
+- character
+
+
+6. Let `class2 <- c(7, TRUE, "char")`. Which of the following is the class of `class2`?
+
+- numeric
+- logical
+- character
+
+
+
+## 2.3 Create Vectors with Patterns
+
+
+
+1. Write R code to create consecutive integers from -10 to 10.
+
+```{r seq1, exercise=TRUE}
+
+```
+
+
+2. Write R code to create a decreasing sequence from 5 to 1 with increment -0.5.
+
+```{r seq2, exercise=TRUE}
+
+```
+
+
+3. Write R code to create an equally-spaced sequence from 2 to 6 with length 10.
+
+```{r seq3, exercise=TRUE}
+
+```
+
+
+4. Write R code using `rep()` function to create the string
+
+`c("sheep","pig", "cat","sheep","pig", "cat","sheep","pig", "cat")`
+
+
+```{r seq4, exercise=TRUE}
+
+```
+
+5. Write R code using `rep()` function to create the string
+
+`c("sheep","sheep","pig","pig","pig","pig","cat","cat","cat")`
+
+
+```{r seq5, exercise=TRUE}
+
+```
+
+
+## 2.4 Sort, Rank, and Order
+
+Suppose `x <- rep(1:3, 1:3)`. 
+
+1. Write R code to sort `x` in descending order. 
+
+```{r sort, exercise=TRUE}
+
+```
+
+
+
+2. Write R code to get the rank of each element in `x`. When elements are ties, use the minimum rank. 
+
+```{r rank, exercise=TRUE}
+
+```
+
+
+
+3. Write R code to get the order of each element of `x`. 
+
+```{r order, exercise=TRUE}
+
+```
+
+4. When sorting characters, which of the following is true?
+
+- digits < letters < symbols
+- symbols < digits < letters
+- symbols < letters < digits
+
+
+## 2.5 Statistical Functions on Vectors
+
+Suppose `x <- c(5, 2, 4, 1, 2, 1)`
+
+1. Write R code to reproduce each element of the summary vector `summary(x)`
+
+```{r summary, exercise=TRUE}
+
+```
+
+2. Write R code to generate the cumulative sum, cumulative product, cumulative minimum, and cumulative maximum vector of `x`.
+
+```{r cum, exercise=TRUE}
+
+```
+
+3. Write R code to generate a vector consisting of the 0.1, 0.2, ..., 0.9 quantiles of `x`.
+
+```{r quantile, exercise=TRUE}
+
+```
+
+4. Write R code to calculate the sample variance and sample standard deviation of `x`.
+
+```{r var, exercise=TRUE}
+
+```
+
+
+
+## 2.6 Comparisons, Vector Subsetting & Change Values

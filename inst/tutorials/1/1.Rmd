@@ -1,5 +1,5 @@
 ---
-title: "1.2 - Use R as a Fancy Calculator"
+title: "1. Introduction"
 output: learnr::tutorial
 runtime: shiny_prerendered
 ---
@@ -9,8 +9,29 @@ library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### 1.2 - Use R as a Fancy Calculator
+## 1.1 Installation of R, RStudio and R Packages 
 
+1. Which of the following code using to install packages into R will cause an error?
+
+- `install.packages("r02pro")`
+- `install.packages(r02pro)`
+
+2. Write R code to load the package **r02pro**
+
+```{r load_package, exercise=TRUE}
+
+```
+
+
+
+3. Write R code to calculate `2 + 3`.
+
+```{r two-plus-three, exercise=TRUE}
+
+```
+
+
+## 1.2 Use R as a Fancy Calculator
 
 1. Write R code to compute the square root of 5 times 5. 
 
@@ -18,9 +39,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-```{r sqrt-solution}
-sqrt(5*5)
-```
 
 
 2. Write R code to get help on the function `floor`.
@@ -29,10 +47,6 @@ sqrt(5*5)
 
 ```
 
-```{r get_help-solution}
-?floor
-help(floor)
-```
 
 
 3. Write R code to compute the square of $\pi$ and round it to 4 digits after the decimal point. 
@@ -41,9 +55,6 @@ help(floor)
 
 ```
 
-```{r pi_2_round-solution}
-round(pi^2, digits = 4)
-```
 
 4. Write R code to compute the logarithm of 1 billion with base 1000. 
 
@@ -51,17 +62,10 @@ round(pi^2, digits = 4)
 
 ```
 
-```{r log_base-solution}
-log(1e9, 1e3)
-```
 
 
 5. Write R code to verify $sin^2(x) + cos^2(x) = 1$, for $x = 724$. 
 
 ```{r sin_cos, exercise=TRUE}
 
-```
-
-```{r sin_cos-solution}
-sin(724)^2+cos(724)^2
 ```
