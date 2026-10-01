@@ -1,6 +1,6 @@
 Package: r02pro
 Title: R Programming: Zero to Pro
-Version: 0.2
+Version: 0.2.1
 Authors@R: c(person(given = "Yang",
            family = "Feng",
            role = c("aut", "cre"),
@@ -11,16 +11,17 @@ Authors@R: c(person(given = "Yang",
            email = "zoezhu970826@gmail.com"))
 Description: This is a companion package of the book "R Programming: Zero to Pro"  <https://r02pro.github.io/>. It contains the datasets used in the book and provides interactive exercises corresponding to the book. It covers a wide range of topics including visualization, data transformation, tidying data, data input and output.
 License: GPL-2
-URL: https://r02pro.github.io/
+URL: https://r02pro.github.io/, https://github.com/yangfengstat/r02pro
+BugReports: https://github.com/yangfengstat/r02pro/issues
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
 RoxygenNote: 7.2.3
 Imports: learnr
 LazyData: true
-NeedsCompilation: no
-Packaged: 2023-05-31 13:57:39 UTC; yangfeng
 Author: Yang Feng [aut, cre],
   Jianan Zhu [aut]
 Maintainer: Yang Feng <yangfengstat@gmail.com>
+NeedsCompilation: no
+Packaged: 2026-10-01 18:27:34 UTC; yangfeng
 Repository: CRAN
-Date/Publication: 2023-05-31 14:30:02 UTC
+Date/Publication: 2026-10-01 18:50:02 UTC
